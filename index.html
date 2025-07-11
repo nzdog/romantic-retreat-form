@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Romantic Retreat Relationship Scaffold</title>
+  <title>The Relationship Reflection</title>
   <style>
     body {
       font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
@@ -113,160 +113,65 @@
   </style>
 </head>
 <body>
-  <h1>Romantic Retreat Relationship Scaffold</h1>
-  <div class="intro">This isn’t a form. It’s a threshold. A ritual before the ritual—where the forest starts to lean toward you. Some couples come with a question. Others come without knowing why—only that it’s time. All are welcome. You can complete this together or separately. No pressure. No performance. Just presence.</div>
-  <form name="romantic-retreat" method="POST" data-netlify="true" action="/thank-you">
-    <input type="hidden" name="form-name" value="romantic-retreat" />
+  <h1>The Relationship Reflection</h1>
+  <div class="intro">This short reflection helps us understand what you’re hoping for during your time at Wild Forest Estate. Whether you’re here to reconnect, celebrate, or simply pause together, your answers help us hold space well. You can complete it together or separately. There are no right answers.</div>
+  <form name="relationship-reflection" method="POST" data-netlify="true" action="/thank-you">
+    <input type="hidden" name="form-name" value="relationship-reflection" />
 
-    <h2>1. What’s alive between you right now?</h2>
-    <p><em>Purpose:</em> To begin from honesty, not lack. To reflect the truth of your connection, whatever it is.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>You are not arriving to fix anything. You’re arriving to witness what’s already here.</p>
-    </details>
+    <h2>1. How would you describe your relationship right now?</h2>
+    <p><em>Why this matters:</em> It helps us meet you where you are, not where you think you should be.</p>
     <details>
       <summary>Examples</summary>
       <ul>
-        <li>We’ve been laughing more lately—it feels like something’s lightening.</li>
-        <li>Honestly, it’s been hard to connect—but we keep showing up.</li>
+        <li>We’re feeling close, but a little tired from life lately.</li>
+        <li>We’re in a good place, but want to deepen our connection.</li>
       </ul>
     </details>
-    <textarea name="whats_alive"></textarea>
+    <textarea name="current_state" required></textarea>
 
-    <h2>2. What does this love already carry that feels rare, sacred, or worth honoring?</h2>
-    <p><em>Purpose:</em> To name what is precious. To shift into reverence before arrival.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>We begin with reverence. Not invention.</p>
-    </details>
+    <h2>2. What do you most appreciate about your partner or your relationship?</h2>
+    <p><em>Why this matters:</em> Appreciation helps us remember what’s working and what’s worth celebrating.</p>
     <details>
       <summary>Examples</summary>
       <ul>
-        <li>We’ve never stopped holding each other through big transitions.</li>
-        <li>This is the first love I’ve ever felt safe in.</li>
+        <li>We laugh together, even when things are hard.</li>
+        <li>We support each other’s dreams.</li>
       </ul>
     </details>
-    <textarea name="sacred_quality"></textarea>
+    <textarea name="appreciation" required></textarea>
 
-    <h2>3. Is there a memory, quality, or shared experience you’d love to feel more of this weekend?</h2>
-    <p><em>Purpose:</em> To reawaken what’s been loved before. To give longing a voice.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>The forest listens best to longing.</p>
-    </details>
+    <h2>3. Is there a quality, feeling, or experience you’d love to have more of during your stay?</h2>
+    <p><em>Why this matters:</em> Naming your hopes helps us create space for them.</p>
     <details>
       <summary>Examples</summary>
       <ul>
-        <li>Long, quiet mornings together with no need to talk.</li>
-        <li>Feeling playful again—inside jokes, silly dances.</li>
+        <li>More playfulness and lightness.</li>
+        <li>Time to talk without distractions.</li>
       </ul>
     </details>
-    <textarea name="longing"></textarea>
+    <textarea name="desired_experience" required></textarea>
 
-    <h2>4. Why this moment? Why now?</h2>
-    <p><em>Purpose:</em> To locate your arrival in the arc of your love story.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>When love asks for marking, something sacred is already stirring.</p>
-    </details>
+    <h2>4. Is there anything you’d like to leave behind or have less of during your retreat?</h2>
+    <p><em>Why this matters:</em> Letting go makes room for what matters most.</p>
     <details>
       <summary>Examples</summary>
       <ul>
-        <li>Our 10-year anniversary—but it feels like more than that.</li>
-        <li>We almost didn’t make it last year. This is our choosing again.</li>
+        <li>Stress from work and daily routines.</li>
+        <li>Our tendency to check our phones too much.</li>
       </ul>
     </details>
-    <textarea name="why_now"></textarea>
+    <textarea name="let_go" required></textarea>
 
-    <h2>5. What do you both need less of right now?</h2>
-    <p><em>Purpose:</em> To clear emotional noise and make space for depth.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>Clearing space is part of the celebration.</p>
-    </details>
+    <h2>5. What would make this retreat feel truly meaningful for you?</h2>
+    <p><em>Why this matters:</em> Your definition of meaning helps us shape your experience.</p>
     <details>
       <summary>Examples</summary>
       <ul>
-        <li>Screens, plans, and other people’s energy.</li>
-        <li>Trying to ‘make the most’ of things. We want to just be.</li>
+        <li>Feeling reconnected and understood.</li>
+        <li>Creating a new memory together.</li>
       </ul>
     </details>
-    <textarea name="less"></textarea>
-
-    <h2>6. What’s been tender or tired in your connection lately?</h2>
-    <p><em>Purpose:</em> To name what’s real without trying to fix it.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>Intimacy doesn’t require polish. Only truth.</p>
-    </details>
-    <details>
-      <summary>Examples</summary>
-      <ul>
-        <li>We’ve been loving but low-energy—just getting through days.</li>
-        <li>We feel close, but not very expressive lately.</li>
-      </ul>
-    </details>
-    <textarea name="tender"></textarea>
-
-    <h2>7. What’s something you’ve made it through together that deserves to be acknowledged?</h2>
-    <p><em>Purpose:</em> To honor your history as a source of strength and intimacy.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>You carry history. Let it be honored, not hidden.</p>
-    </details>
-    <details>
-      <summary>Examples</summary>
-      <ul>
-        <li>We moved countries. Twice.</li>
-        <li>There was a time we almost gave up. But we didn’t.</li>
-      </ul>
-    </details>
-    <textarea name="acknowledged"></textarea>
-
-    <h2>8. What kind of moment would feel unforgettable for you this weekend?</h2>
-    <p><em>Purpose:</em> To plant an emotional seed that the weekend can grow around.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>You don’t need to plan it—but naming it invites it in.</p>
-    </details>
-    <details>
-      <summary>Examples</summary>
-      <ul>
-        <li>Reading a letter by candlelight.</li>
-        <li>A shared bath under stars in total silence.</li>
-      </ul>
-    </details>
-    <textarea name="unforgettable"></textarea>
-
-    <h2>9. If this weekend became a core memory… what might it be titled?</h2>
-    <p><em>Purpose:</em> To set a soft intention for what this stay could become.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>Giving a name plants a seed of memory.</p>
-    </details>
-    <details>
-      <summary>Examples</summary>
-      <ul>
-        <li>The Weekend We Really Saw Each Other Again</li>
-        <li>The One Where It All Slowed Down</li>
-      </ul>
-    </details>
-    <textarea name="core_memory"></textarea>
-
-    <h2>10. Is there anything you’d like us to know to help your love feel fully held?</h2>
-    <p><em>Purpose:</em> To create a field of care shaped around your truth.</p>
-    <details>
-      <summary>Why this matters</summary>
-      <p>This is your retreat. The forest bends toward truth.</p>
-    </details>
-    <details>
-      <summary>Examples</summary>
-      <ul>
-        <li>Please no surprises or performances—we’re quiet people.</li>
-        <li>We’d love something tactile to mark the moment. A keepsake, a ritual.</li>
-      </ul>
-    </details>
-    <textarea name="fully_held"></textarea>
+    <textarea name="meaningful" required></textarea>
 
     <div class="save-section">
       <button type="button" class="save-button" onclick="window.print()">Save My Reflection</button>
@@ -279,9 +184,9 @@
       <label for="email"><strong>Your Email Address</strong></label><br />
       <input type="email" name="email" id="email" />
 
-      <p style="font-size: 0.95rem; color: #555; margin-bottom: 2rem;">Only fill in your name and email if you'd like us to follow up (gently of course) with a relationship scaffold. You are welcome to leave it blank.</p>
+      <p style="font-size: 0.95rem; color: #555; margin-bottom: 2rem;">Only fill in your name and email if you'd like us to follow up (gently of course). You are welcome to leave it blank.</p>
 
-      <button type="submit">Submit My Reflection</button>
+      <button type="submit">Send My Reflection</button>
     </div>
   </form>
 </body>
